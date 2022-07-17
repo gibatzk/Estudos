@@ -9,7 +9,7 @@ x = {
     "pet":"Robin",
     "carro": [
         {"modelo":"fiat Fiorino", "cor":"branca"},
-        {"modelo":"Peuget 504", "cor":"prata"}
+        {"modelo":"Peuget 504", "cor":"preta"}
     ]
 }
 
