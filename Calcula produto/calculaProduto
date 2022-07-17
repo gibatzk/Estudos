@@ -1,0 +1,19 @@
+import os
+
+os.system('cls') or None
+
+#entrada de dados
+num1 = input('Digite o primeiro numero:')
+num1 = int(num1)
+
+num2 = input('Digite o segundo numero:')
+num2 = int(num2)
+
+#processamento
+
+mult = num1 * num2
+
+#saida da informação
+
+print()
+print('A multiplicação do', num1, 'por', num2, 'é', mult)
