@@ -1,5 +1,5 @@
 def soma (arg):
-    total = 1
+    total = 0
     for i in arg:
         total += i 
     return total
