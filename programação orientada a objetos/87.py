@@ -7,7 +7,7 @@ class Pessoa:
         print('Ola meu nome é ' + self.nome, 'e tenho', self.idade, 'de idade.')
 
 
-p1 = Pessoa("Keila", 40)
+p1 = Pessoa("Gilberto", 40)
 p1.myFunc()
 
 p2 = Pessoa("Keilla", 41)
