@@ -8,16 +8,16 @@ class Conta:
         self.__limite = limite
 
     def extrato(self):
-        print("Saldo {} do titular {}".format(self.__saldo, self.__titular))
+        print("Saldo de {} do titular {}".format(self.__saldo, self.__titular))
 
     def deposita(self, valor):
         self.__saldo += valor
 
-    def saca(self,valor):
+    def saca(self, valor):
         self.__saldo -= valor
 
     def pega_saldo(self):
-        return self.salfo
+        return self.__saldo
     
     def devolve_titular(self):
         return self.__titular
@@ -27,7 +27,7 @@ class Conta:
     
     def transfere(self, valor, destino):
         self.saca(valor)
-        self.deposita(valor)
+        destino.deposita(valor)
 
 
 
